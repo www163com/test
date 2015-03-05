@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <!-- 配置struts的对象工厂由spring管理 -->
+	<constant name="struts.objectFactory" value="spring" />
+	<!-- 配置spring的配饰模式为type -->
+	<constant name="struts.objectFactory.spring.autoWire" value="type" />
+    <package name="default" namespace="/" extends="struts-default">
+
+       
+    </package>
+
+  
+</struts>
